@@ -8,4 +8,4 @@ cmds = ["bun install", "bun add -D lightningcss-linux-x64-gnu"]
 cmds = ["bun run build"]
 
 [start]
-cmd = "bun run start"
+cmd = "bun run preview"
