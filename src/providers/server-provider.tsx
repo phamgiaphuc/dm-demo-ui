@@ -45,8 +45,6 @@ export const ServerProvider = ({ children }: { children: React.ReactNode }) => {
   };
 
   const removeServer = (serverId: string) => {
-    if (servers.length === 1) return;
-
     setServers((prev) => prev.filter((s) => s.id !== serverId));
 
     if (selectedServerId === serverId) {
